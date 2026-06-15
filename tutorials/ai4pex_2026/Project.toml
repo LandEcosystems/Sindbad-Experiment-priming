@@ -1,0 +1,12 @@
+[deps]
+CMAEvolutionStrategy = "8d3b24bd-414e-49e0-94fb-163cc3a3e411"
+FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+Sindbad = "36c3e672-7dee-4606-99b5-7e5d8d85a313"
+SindbadPriming = "7150cb7e-b54a-4419-adf4-a3c5c2a90a47"
+
+[sources]
+SindbadPriming = {path = "../.."}

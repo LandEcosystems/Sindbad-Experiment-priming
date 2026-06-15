@@ -1,6 +1,20 @@
+name = "SindbadPriming"
+uuid = "a2a8f6da-3bcc-4316-bc91-8246b3cbcef7"
+authors = ["Thomas Wutzler <twutz@bgc-jena.mpg.de>"]
+version = "0.1.0"
+
 [deps]
+CMAEvolutionStrategy = "8d3b24bd-414e-49e0-94fb-163cc3a3e411"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 ErrorMetrics = "c324fbf6-076a-4da5-8ad2-21081a6b285c"
 OmniTools = "202e6067-a2be-48c9-bc21-3d3d20912f89"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Sindbad = "36c3e672-7dee-4606-99b5-7e5d8d85a313"
 SindbadTEM = "6686e6de-2010-4bf8-9178-b2bcc470766e"
 TimeSamplers = "a27efc82-29b7-4223-84cd-12fc64c7a5bb"
+YAXArrayBase = "90b8fcef-0c2d-428d-9c56-5f86629e9d14"
+
+[compat]
+CSV = "0.10.16"
+Plots = "1.41.6"
+YAXArrayBase = "<0.7.9"
