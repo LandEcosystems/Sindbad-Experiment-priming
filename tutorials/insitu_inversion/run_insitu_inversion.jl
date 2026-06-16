@@ -30,7 +30,7 @@ domain, y_dist  = getSiteInfo(site_index);
 # experiment is all set up according to a (collection of) json file(s)
 #experiment_json     = joinpath(@__DIR__,"../setups/WROASTED_HB","experiment_insitu.json");
 experiment_json     = joinpath("tutorials/setups/WROASTED_HB","experiment_insitu.json");
-experiment_name     = "WROASTED_inversion_CMAES";
+experiment_name     = "WROASTED_inversion_moyano";
 begin_year          = 1979;
 end_year            = 2017;
 run_optimization    = true;
